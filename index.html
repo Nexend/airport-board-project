@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- App -->
+    <div class="page">
+      <!-- Search -->
+      <div class="search">
+        <h1 class="search__title">SEARCH FLIGHTS</h1>
+        <div class="search-field">
+          <i class="fas fa-search search-field__icon"></i>
+          <form class="search-field__form">
+            <input
+              type="text"
+              class="search-field__input"
+              placeholder="Airline, destination or flight #"
+            />
+            <button class="search-field__btn">SEARCH</button>
+          </form>
+        </div>
+      </div>
+      <!-- Scoreboard -->
+      <div class="scoreboard">
+        <!-- ScoreboardButtons -->
+        <div class="scoreboard__inner">
+          <a href="#" class="scoreboard__btn scoreboard__btn_active"
+            ><i class="fas fa-plane-departure scoreboard__inner-departure-icon"></i>DEPARTURES</a
+          >
+          <a href="#" class="scoreboard__btn"
+            ><i class="fas fa-plane-arrival scoreboard__inner-arrival-icon"></i>ARRIVALS</a
+          >
+        </div>
+        <!-- ScoreboardFlights -->
+        <div class="scoreboard__calendar">
+          <i class="far fa-calendar scoreboard__calendar-icon"></i>
+          <div class="scoreboard-date">
+            <span class="scoreboard-date__num">22/02</span>
+            <span class="scoreboard-date__title">TODAY</span>
+          </div>
+        </div>
+        <table class="scoreboard__content">
+          <thead>
+            <tr>
+              <th>Terminal</th>
+              <th>Local time</th>
+              <th>Destination</th>
+              <th>Status</th>
+              <th>Airline</th>
+              <th>Flight</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="terminal-field">D</td>
+              <td class="schedule-field">8:40</td>
+              <td class="appointment-field">Запорижжя</td>
+              <td class="status-field">Прибув 8:51</td>
+              <td class="airline-field">
+                <div class="airline-field__inner">
+                  <img class="airline-field__inner-img" src="" alt="company logo" />
+                  <span class="airline-field__inner-name">Мотор Сич</span>
+                </div>
+              </td>
+              <td class="flight-field">M9201</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td class="terminal-field">D</td>
+              <td class="schedule-field">8:40</td>
+              <td class="appointment-field">Запорижжя</td>
+              <td class="status-field">Прибув 8:51</td>
+              <td class="airline-field">
+                <div class="airline-field__inner">
+                  <img class="airline-field__inner-img" src="" alt="company logo" />
+                  <span class="airline-field__inner-name">Мотор Сич</span>
+                </div>
+              </td>
+              <td class="flight-field">M9201</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td class="terminal-field">D</td>
+              <td class="schedule-field">8:40</td>
+              <td class="appointment-field">Запорижжя</td>
+              <td class="status-field">Прибув 8:51</td>
+              <td class="airline-field">
+                <div class="airline-field__inner">
+                  <img class="airline-field__inner-img" src="" alt="company logo" />
+                  <span class="airline-field__inner-name">Мотор Сич</span>
+                </div>
+              </td>
+              <td class="flight-field">M9201</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td class="terminal-field">D</td>
+              <td class="schedule-field">8:40</td>
+              <td class="appointment-field">Запорижжя</td>
+              <td class="status-field">Прибув 8:51</td>
+              <td class="airline-field">
+                <div class="airline-field__inner">
+                  <img class="airline-field__inner-img" src="" alt="company logo" />
+                  <span class="airline-field__inner-name">Мотор Сич</span>
+                </div>
+              </td>
+              <td class="flight-field">M9201</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
